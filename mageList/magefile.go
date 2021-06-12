@@ -98,7 +98,7 @@ func chooseGui(targetNames []string, chooseTarget chan string) error {
 		io.WriteString(stdin, strings.Join(targetNames, "\n"))
 	}()
 
-	choose_out, commandListRunErr := choose.CombinedOutput()
+	choose_out, commandListRunErr := choose.Output()
 	if commandListRunErr != nil {
 		return commandListRunErr
 	}
