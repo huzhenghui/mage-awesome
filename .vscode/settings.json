@@ -1,5 +1,6 @@
 {
   "files.exclude": {
-    "/mage-1.11.0-just": true
+    "/mage-1.11.0-just": true,
+    "/mageList": true
   }
 }
