@@ -1,0 +1,15 @@
+# Step : 1 : go mod init
+go-mod-init:
+    go mod init mage-1.11.0-just
+
+# Step : 2 : mage -init
+mage-init:
+    mage -init
+
+# Step : 3 : go get github.com/magefile/mage/mg
+go-get-mage:
+    go get github.com/magefile/mage/mg
+
+# Step : 4 : mage
+mage:
+    mage
